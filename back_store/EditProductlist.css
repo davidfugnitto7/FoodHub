@@ -1,0 +1,77 @@
+.title{
+  padding: 8% 0% 6% 10% ;
+
+}
+nav{
+  max-width: 30%;
+}
+body{
+  width: 100;
+  height: 100%;
+  background-color: #F3F1F5;
+}
+.navelements{
+  /* width: 30%; */
+  height: 100%;
+  top: 0px;
+  padding-right: 5%;
+  position: fixed;
+
+  background-color: #3D7C5C;
+}
+.nav-item{
+  color: white;
+
+
+  font-size: 1.2rem;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-bottom: 3%
+}
+.PageContent{
+
+  float: right;
+  width: 70%;
+  background-color: #F3F1F5;
+}
+.form-signin{
+  padding: 15% 15%  0;
+}
+
+@media (max-width : 700px){
+
+  .title{
+    padding: 15% 0% 13% 15% ;
+    font-size: 1.1rem;
+
+  }
+
+  .navelements{
+     width: 30%;
+    height: 100%;
+    top: 0px;
+    padding-right: 0;
+    position:absolute;
+    font-size: 0.8rem;
+
+    background-color: #7952b3;
+  }
+  .nav-item{
+    color: white;
+
+
+    font-size: 0.8rem;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 3%
+
+  }
+  .PageContent{
+
+    float: right;
+    width: 70%;
+    font-size: 0.8rem;
+  }
+
+
+}

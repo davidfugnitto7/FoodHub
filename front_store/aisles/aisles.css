@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+:root {
+  --black: #130f40;
+}
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  height: 100%;
+  background-color: whitesmoke;
+}
+.heading {
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 48px;
+  font-size: 56px;
+  color: var(--black);
+}
+
+.heading span {
+  background: #3d7c5c;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+  border-radius: 6px;
+}
+
+.btn {
+  margin-top: 16px;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 8px;
+  border: 0.2rem solid var(--black);
+  color: #130f40;
+  cursor: pointer;
+  background: none;
+}
+
+.btn:hover {
+  background: #3d7c5c;
+  color: #fff;
+}
+.aisles .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  gap: 24px;
+  margin: 5% 10%;
+}
+
+.aisles .box-container .box {
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--box-shadow);
+  outline: var(--outline);
+  outline-offset: -1rem;
+  text-align: center;
+}
+
+.aisles .box-container .box:hover {
+  outline: var(--outline-hover);
+  outline-offset: 0px;
+}
+
+.aisles .box-container .box img {
+  height: 300px;
+  width: 350px;
+  border-radius: 5%;
+}
+
+.aisles .box-container .box h3 {
+  font-size: 32px;
+  color: var(--black);
+  line-height: 1.8;
+}
+/* media*/
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
+}
