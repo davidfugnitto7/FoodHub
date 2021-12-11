@@ -231,6 +231,7 @@ footer .footer_sec h2 {
   font-size: 30px;
   display: flex;
   padding: 2rem 0 0 2rem;
+  background: #d5f2e3;
 }
 
 footer span {
@@ -244,6 +245,7 @@ footer span {
 
 footer p {
   text-align: justify;
+  background: #d5f2e3;
   margin-left: 20px;
   margin-top: 20px;
   max-width: 300px;
@@ -253,6 +255,7 @@ footer p {
 
 footer .social_media_logos {
   display: inline-block;
+  background: #d5f2e3;
   border: none;
   outline: none;
   font-size: 40px;
@@ -261,21 +264,25 @@ footer .social_media_logos {
 
 footer .social_media_logos i {
   color: #3d7c5c;
+  background: #d5f2e3;
 }
 
 footer .quick_links ul {
   font-size: 25px;
+  background: #d5f2e3;
   padding-left: 60px;
   padding-top: 10px;
 }
 
 footer .quick_links li {
   margin: 10px 0;
+  background: #d5f2e3;
   color: #3d7c5c;
 }
 
 footer .contact_us form {
   padding: 0px;
+  background: #d5f2e3;
   max-width: 500px;
   margin-left: 30px;
   margin-right: 20px;
@@ -283,6 +290,7 @@ footer .contact_us form {
 
 footer .contact_us input {
   display: block;
+
   margin-bottom: 20px;
   width: 400px;
   font-size: 20px;
@@ -292,6 +300,7 @@ footer .contact_us input {
 
 footer .contact_us textarea {
   display: block;
+
   margin-bottom: 20px;
   font-size: 20px;
   width: 400px;
@@ -302,6 +311,7 @@ footer .contact_us textarea {
 
 footer .contact_us button {
   display: block;
+  background: #d5f2e3;
   font-size: 25px;
   border: 1px solid black;
   border-radius: 5px;
@@ -333,5 +343,11 @@ footer .footer_bottom {
   }
   .footer {
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    display: flex;
   }
 }
